@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Program_Drink_Water">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Program_Drink_Water.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
