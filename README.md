@@ -40,8 +40,6 @@ ClassMenu <|--|> ClassUpload_Form : Link4
 ClassUpload_Form <|--|> ClassUpload : Link5
 <<Interface>> ClassMain
 Clothing_Store --|> ClassMain_Form
-Clothing_Store --|> ClassMenu
-Clothing_Store --|> ClassUpload
 Clothing_Store : MainJF()
 Clothing_Store : Visible()
 ClassMain : size()
