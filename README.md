@@ -31,7 +31,6 @@ class Class10 {
 ```
 
 
-
 ```mermaid
 classDiagram
 Class01 <|-- AveryLongClass : Cool
