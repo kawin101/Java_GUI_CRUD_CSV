@@ -34,6 +34,7 @@ class Class10 {
 classDiagram
 ClassMain <|-- ClassMain_Form : Link
 <<Interface>> ClassMain
+Clothing_Store --|> ClassMain
 ClassMain : size()
 ClassMain : Title()
 ClassMain : Bounds()
