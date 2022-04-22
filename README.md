@@ -2,7 +2,7 @@
 > * My first project with JAVA, This work my old project in March 2021
 > * พัฒนาโดย (Programing): นายกวินภพ ชมนิกร 
 
-```mermaid
+##```mermaid
 flowchart LR
 A[Clothing_Store] -->|Link| B(Main)
 B --> C{Menu}
@@ -10,7 +10,7 @@ C -->|One| D[Upload 1]
 C -->|two| E[Menu 2]
 ```
 
-```mermaid
+##```mermaid
 classDiagram
 ClassMain_Form --|> ClassMain : Link1
 ClassMain --|> ClassMenu_Form : Link2
