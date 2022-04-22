@@ -45,5 +45,15 @@ ClassMain : Bounds()
 ClassMain : MaximizedBounds()
 ClassMain : int chimp
 ClassMain : int gorilla
+ClassMenu : String cerrency
+ClassMenu : String display
+ClassMenu : String output
+ClassMenu : String price
+ClassMenu : String order
+ClassMenu : DecimalFormat()
+ClassMenu : double allprice
+ClassMenu : int selected
+ClassMenu : int row
+ClassMenu : int x
 
 ```
