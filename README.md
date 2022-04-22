@@ -32,13 +32,13 @@ class Class10 {
 
 ```mermaid
 classDiagram
-ClassMainJF <|-- ClassMain_java : Link
-<<Interface>> ClassMainJF
-ClassMainJF : size()
-ClassMainJF : Title()
-ClassMainJF : Bounds()
-ClassMainJF : MaximizedBounds()
-ClassMainJF : int chimp
-ClassMainJF : int gorilla
+ClassMainJF <|-- ClassMain_Form : Link
+<<Interface>> ClassMain
+ClassMain : size()
+ClassMain : Title()
+ClassMain : Bounds()
+ClassMain : MaximizedBounds()
+ClassMain : int chimp
+ClassMain : int gorilla
 
 ```
