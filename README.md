@@ -35,9 +35,7 @@ classDiagram
 ClassMain <|-- ClassMain_Form : Link
 <<Interface>> ClassMain
 Clothing_Store --|> ClassMain
-<<Interface>> ClassMenu
 Clothing_Store --|> ClassMenu
-<<Interface>> ClassUpload
 Clothing_Store --|> ClassUpload
 Clothing_Store : MainJF()
 Clothing_Store : Visible()
