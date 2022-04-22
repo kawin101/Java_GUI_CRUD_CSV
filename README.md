@@ -42,7 +42,6 @@ Class07 : equals()
 Class07 : Object[] elementData
 Class01 : size()
 Class01 : Title()
-Class01 : Bounds()
 Class01 : int chimp
 Class01 : int gorilla
 class Class10 {
