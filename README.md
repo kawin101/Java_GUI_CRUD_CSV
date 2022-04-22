@@ -34,20 +34,12 @@ class Class10 {
 classDiagram
 ClassMainJF <|-- AveryLongClass : Cool
 <<Interface>> ClassMainJF
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
 ClassMainJF : size()
 ClassMainJF : Title()
 ClassMainJF : Bounds()
 ClassMainJF : MaximizedBounds()
 ClassMainJF : int chimp
 ClassMainJF : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
-}
+
+  
 ```
