@@ -55,5 +55,6 @@ ClassMenu : double allprice
 ClassMenu : int selected
 ClassMenu : int row
 ClassMenu : int x
+ClassMenu : DefaultTableModel(model)
 
 ```
