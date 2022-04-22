@@ -32,7 +32,7 @@ class Class10 {
 
 ```mermaid
 classDiagram
-ClassMainJF <|-- ClassMain_Form : Link
+ClassMain <|-- ClassMain_Form : Link
 <<Interface>> ClassMain
 ClassMain : size()
 ClassMain : Title()
