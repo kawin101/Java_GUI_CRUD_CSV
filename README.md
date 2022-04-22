@@ -56,5 +56,8 @@ ClassMenu : int selected
 ClassMenu : int row
 ClassMenu : int x
 ClassMenu : DefaultTableModel()
+ClassUpload : Bounds()
+ClassUpload : Size()
+ClassUpload : Title()
 
 ```
