@@ -34,6 +34,8 @@ class Class10 {
 classDiagram
 ClassMain <|-- ClassMain_Form : Link
 <<Interface>> ClassMain
+<<Interface>> ClassMenu
+<<Interface>> ClassUpload
 Clothing_Store --|> ClassMain
 Clothing_Store --|> ClassMenu
 Clothing_Store --|> ClassUpload
