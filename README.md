@@ -32,19 +32,19 @@ class Class10 {
 
 ```mermaid
 classDiagram
-Class01 <|-- AveryLongClass : Cool
-<<Interface>> Class01
+MainJF.java <|-- AveryLongClass : Cool
+<<Interface>> MainJF.java
 Class09 --> C2 : Where am i?
 Class09 --* C3
 Class09 --|> Class07
 Class07 : equals()
 Class07 : Object[] elementData
-Class01 : size()
-Class01 : Title()
-Class01 : Bounds()
-Class01 : MaximizedBounds()
-Class01 : int chimp
-Class01 : int gorilla
+MainJF.java : size()
+MainJF.java : Title()
+MainJF.java : Bounds()
+MainJF.java: MaximizedBounds()
+MainJF.java : int chimp
+MainJF.java : int gorilla
 class Class10 {
   <<service>>
   int id
