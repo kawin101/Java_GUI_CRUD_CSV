@@ -34,7 +34,7 @@ class Class10 {
 ```mermaid
 classDiagram
 Class01 <|-- AveryLongClass : Cool
-<<Interface>> Class MainJF
+<<Interface>> ClassMainJF
 Class09 --> C2 : Where am i?
 Class09 --* C3
 Class09 --|> Class07
