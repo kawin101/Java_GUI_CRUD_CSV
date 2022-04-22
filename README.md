@@ -32,7 +32,8 @@ class Class10 {
 
 ```mermaid
 classDiagram
-ClassMain <|-- ClassMain_Form : Link1
+
+ClassMain_Form <|-- ClassMain : Link1
 ClassMenu <|-- ClassMenu_Form : Link2
 ClassUpload <|-- ClassUpload_Form : Link3
 <<Interface>> ClassMain
