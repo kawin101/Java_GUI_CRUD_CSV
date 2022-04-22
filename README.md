@@ -35,6 +35,8 @@ classDiagram
 ClassMain <|-- ClassMain_Form : Link
 <<Interface>> ClassMain
 Clothing_Store --|> ClassMain
+Clothing_Store : MainJF()
+Clothing_Store : Visible()
 ClassMain : size()
 ClassMain : Title()
 ClassMain : Bounds()
