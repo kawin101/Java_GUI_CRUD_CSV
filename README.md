@@ -36,6 +36,8 @@ classDiagram
 ClassMain_Form --|> ClassMain : Link1
 ClassMain --|> ClassMenu_Form : Link2
 ClassMenu_Form --|> ClassMenu : Link3
+ClassMenu <|--|> ClassUpload_Form : Link4
+ClassUpload_Form <|--|> ClassUpload : Link5
 <<Interface>> ClassMain
 Clothing_Store --|> ClassMain_Form
 Clothing_Store --|> ClassMenu
