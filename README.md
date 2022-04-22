@@ -5,7 +5,7 @@
 
 ```mermaid
 flowchart LR
-A[Clothing_Store] -->|Main| B(Round)
+A[Clothing_Store] -->|text| B(Main)
 B --> C{Menu}
 C -->|One| D[Upload 1]
 C <|--Two| E[Menu 2]
