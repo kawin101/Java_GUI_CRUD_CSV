@@ -47,6 +47,7 @@ ClassMain : Bounds()
 ClassMain : MaximizedBounds()
 ClassMain : int chimp
 ClassMain : int gorilla
+<<Interface>> ClassMenu
 ClassMenu : String cerrency
 ClassMenu : String display
 ClassMenu : String output
@@ -58,6 +59,7 @@ ClassMenu : int selected
 ClassMenu : int row
 ClassMenu : int x
 ClassMenu : DefaultTableModel()
+<<Interface>> ClassUpload
 ClassUpload : Bounds()
 ClassUpload : Size()
 ClassUpload : Title()
