@@ -40,9 +40,9 @@ Class09 --|> Class07
 Class07 : equals()
 Class07 : Object[] elementData
 Class01 : size()
-Class01 : setTitle()
-Class01 : setBounds()
-Class01 : setMaximizedBounds()
+Class01 : Title()
+Class01 : Bounds()
+Class01 : MaximizedBounds()
 Class01 : int chimp
 Class01 : int gorilla
 class Class10 {
