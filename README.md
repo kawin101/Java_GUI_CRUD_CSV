@@ -37,7 +37,7 @@ ClassMain_Form --|> ClassMain : Link1
 ClassMenu <|-- ClassMenu_Form : Link2
 ClassUpload <|-- ClassUpload_Form : Link3
 <<Interface>> ClassMain
-Clothing_Store --|> ClassMain
+Clothing_Store --|> ClassMain_Form
 Clothing_Store --|> ClassMenu
 Clothing_Store --|> ClassUpload
 Clothing_Store : MainJF()
