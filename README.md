@@ -32,7 +32,7 @@ class Class10 {
 
 ```mermaid
 classDiagram
-ClassMainJF <|-- AveryLongClass : Cool
+ClassMainJF <|-- ClassMain_java : Link
 <<Interface>> ClassMainJF
 ClassMainJF : size()
 ClassMainJF : Title()
