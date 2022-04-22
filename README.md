@@ -41,5 +41,4 @@ ClassMainJF : MaximizedBounds()
 ClassMainJF : int chimp
 ClassMainJF : int gorilla
 
-  
 ```
