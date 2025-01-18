@@ -19,8 +19,16 @@
 This project is a basic Java Desktop Application that demonstrates CRUD operations and saves data to a CSV file. It is designed for beginners to get started with Java GUI development using NetBeans.
 
 ## Prerequisites
-- JDK 9 or higher
-- NetBeans 13
+- **JDK 9 or higher**
+  1. Go to the [Oracle JDK download page](https://www.oracle.com/java/technologies/javase-jdk9-downloads.html).
+  2. Accept the license agreement.
+  3. Download the installer for your operating system.
+  4. Follow the installation instructions.
+
+- **NetBeans 13**
+  1. Go to the [NetBeans download page](https://netbeans.apache.org/download/index.html).
+  2. Select the version 13 and download the installer for your operating system.
+  3. Follow the installation instructions.
 
 ## Setup
 1. **Clone the repository:**
