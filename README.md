@@ -27,31 +27,28 @@ This project is a basic Java Desktop Application that demonstrates CRUD operatio
    ```sh
    git clone https://github.com/kawin101/Java_GUI_CRUD_CSV.git
    cd Java_GUI_CRUD_CSV
+   ```
 
+2. **Open the project in NetBeans:**
+   - Open NetBeans.
+   - Go to File > Open Project.
+   - Navigate to the cloned repository and open it.
 
-GitHub Copilot
-Sure, here's a simple README file for your Java Desktop App project:
+3. **Build the project:**
+   - Right-click on the project in the Projects pane.
+   - Select Build.
 
-Open the project in NetBeans:
+## Running the Application
+1. **Run the project:**
+   - Right-click on the project in the Projects pane.
+   - Select Run.
 
-Open NetBeans.
-Go to File > Open Project.
-Navigate to the cloned repository and open it.
-Build the project:
+2. **Using the application:**
+   - The main window will open.
+   - You can perform CRUD operations and save data to a CSV file.
 
-Right-click on the project in the Projects pane.
-Select Build.
-Running the Application
-Run the project:
-
-Right-click on the project in the Projects pane.
-Select Run.
-Using the application:
-
-The main window will open.
-You can perform CRUD operations and save data to a CSV file.
-Project Structure
-
+## Project Structure
+```
 Java_GUI_CRUD_CSV
 ├── src
 │   └── main
@@ -71,12 +68,14 @@ Java_GUI_CRUD_CSV
 ├── build.xml
 ├── manifest.mf
 └── README.md
+```
 
-Usage
-Main.java: The main entry point of the application.
-application.properties: Configuration file for the application.
-Contributing
+## Usage
+- **Main.java:** The main entry point of the application.
+- **application.properties:** Configuration file for the application.
+
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License.
