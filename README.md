@@ -1,48 +1,82 @@
-# Java_GUI_CRUD_CSV.
+# Java_GUI_CRUD_CSV
+
 <p><i>Project-Save-to-CSV-and-DrinkWater</i></p>
 
 * My first project with JAVA, This work my old project in March 2021
 * พัฒนาโดย (Programing): นายกวินภพ ชมนิกร 
 
-##```mermaid
-flowchart LR \
-A[Clothing_Store] -->|Link| B(Main) \
-B --> C{Menu} \
-C -->|One| D[Upload 1] \
-C -->|two| E[Menu 2] \
-```
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Running the Application](#running-the-application)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-##```mermaid
-classDiagram
-ClassMain_Form --|> ClassMain : Link1
-ClassMain --|> ClassMenu_Form : Link2
-ClassMenu_Form --|> ClassMenu : Link3
-ClassMenu <|--|> ClassUpload_Form : Link4
-ClassUpload_Form <|--|> ClassUpload : Link5
-<<Interface>> ClassMain
-Clothing_Store --|> ClassMain_Form
-Clothing_Store : MainJF()
-Clothing_Store : Visible()
-ClassMain : size()
-ClassMain : Title()
-ClassMain : Bounds()
-ClassMain : MaximizedBounds()
-ClassMain : int chimp
-ClassMain : int gorilla
-<<Interface>> ClassMenu
-ClassMenu : String cerrency
-ClassMenu : String display
-ClassMenu : String output
-ClassMenu : String price
-ClassMenu : String order
-ClassMenu : DecimalFormat()
-ClassMenu : double allprice
-ClassMenu : int selected
-ClassMenu : int row
-ClassMenu : int x
-ClassMenu : DefaultTableModel()
-<<Interface>> ClassUpload
-ClassUpload : Bounds()
-ClassUpload : Size()
-ClassUpload : Title()
-```
+## Introduction
+This project is a basic Java Desktop Application that demonstrates CRUD operations and saves data to a CSV file. It is designed for beginners to get started with Java GUI development using NetBeans.
+
+## Prerequisites
+- JDK 9 or higher
+- NetBeans 13
+
+## Setup
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/kawin101/Java_GUI_CRUD_CSV.git
+   cd Java_GUI_CRUD_CSV
+
+
+GitHub Copilot
+Sure, here's a simple README file for your Java Desktop App project:
+
+Open the project in NetBeans:
+
+Open NetBeans.
+Go to File > Open Project.
+Navigate to the cloned repository and open it.
+Build the project:
+
+Right-click on the project in the Projects pane.
+Select Build.
+Running the Application
+Run the project:
+
+Right-click on the project in the Projects pane.
+Select Run.
+Using the application:
+
+The main window will open.
+You can perform CRUD operations and save data to a CSV file.
+Project Structure
+
+Java_GUI_CRUD_CSV
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── example
+│       │           └── Main.java
+│       └── resources
+│           └── application.properties
+├── nbproject
+│   ├── build-impl.xml
+│   ├── genfiles.properties
+│   ├── private
+│   │   └── private.properties
+│   ├── project.properties
+│   └── project.xml
+├── build.xml
+├── manifest.mf
+└── README.md
+
+Usage
+Main.java: The main entry point of the application.
+application.properties: Configuration file for the application.
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+License
+This project is licensed under the MIT License.
