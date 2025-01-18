@@ -20,7 +20,7 @@ This project is a basic Java Desktop Application that demonstrates CRUD operatio
 
 ## Prerequisites
 - **JDK 9 or higher**
-  1. Go to the [Oracle JDK download page](https://www.oracle.com/java/technologies/javase-jdk9-downloads.html).
+  1. Go to the [Oracle JDK download page](https://www.oracle.com/java/technologies/javase/javase9-archive-downloads.html).
   2. Accept the license agreement.
   3. Download the installer for your operating system.
   4. Follow the installation instructions.
